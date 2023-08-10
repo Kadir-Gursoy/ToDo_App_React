@@ -1,4 +1,4 @@
-![Animation]"https://github.com/Kadir-Gursoy/ToDo_App_React/blob/main/animation.gif"
+![Animation](https://github.com/Kadir-Gursoy/ToDo_App_React/blob/main/animation.gif)
 
 # Getting Started with Create React App
 
