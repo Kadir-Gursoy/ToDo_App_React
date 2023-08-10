@@ -1,3 +1,5 @@
+![Animation]"https://github.com/Kadir-Gursoy/ToDo_App_React/blob/main/animation.gif"
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
