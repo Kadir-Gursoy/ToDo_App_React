@@ -24,7 +24,7 @@ setTask("")
 
  return (
     <div className='container text-center'>
-        <h1 className='text-danger'>TODO APP</h1>
+        <h1 className='text-danger padding="10"'>TODO APP</h1>
         <div className='row justify-content-center mt-5'>
             <form onSubmit={handleSubmit} action="" className='d-flex w-50'>
                 <input onChange={(e)=>setTask(e.target.value)} value={task} type="text" className='form-control'/>
