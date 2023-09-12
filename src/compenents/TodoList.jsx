@@ -16,7 +16,7 @@ const handleCompleted =(id)=> {
 }
   return (
 
-    <div className='container mt-4 border-top'>
+    <div className='container mt-4 border-top backgroundColor="purple"'>
         <div className='w-50 d-flex flex-column m-auto'>
 
            {todos.map((item)=> {
