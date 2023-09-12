@@ -28,7 +28,7 @@ setTask("")
         <div className='row justify-content-center mt-5'>
             <form onSubmit={handleSubmit} action="" className='d-flex w-50'>
                 <input onChange={(e)=>setTask(e.target.value)} value={task} type="text" className='form-control'/>
-                <button  disabled={!task} type='submit' className='btn btn-primary'>Add</button>
+                <button  disabled={!task} type='submit' className='btn btn-danger'>Add</button>
             </form>
         </div>
     
