@@ -4,7 +4,7 @@ import { v4 as uuidv4 } from 'uuid';
 
 
 
-const Header = ({todos, setTodos}) => {
+export const Header = ({todos, setTodos}) => {
 
 const [task, setTask] = useState()
 
@@ -36,4 +36,4 @@ setTask("")
   )
 }
 
-export default Header
+
