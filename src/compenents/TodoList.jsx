@@ -24,10 +24,10 @@ const handleCompleted =(id)=> {
             return(
                 <div key={item.id} className='d-flex justify-content-between align-items-center mt-4 bg-purple border rounded-3'>
                 <input id={item.id} onClick={()=>handleCompleted(item.id)} type="checkbox" name=""  />
-                <div className='mt-2'>
+                <div className='mt-3'>
                 <p className={item.completed ? "completed" : ""} > {item.text} </p>
                 </div>
-                <span onClick={()=> handleDelete(item.id)}>🆑</span>
+                <span onClick={()=> handleDelete(item.id)}>Clear</span>
 
             </div>
 
